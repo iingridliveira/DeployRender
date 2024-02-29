@@ -4,7 +4,7 @@ const app = express()
 const router = Router()
 const port = 4032;
 app.use(express.json());
-router.post("/", (rec,res)=>{
+router.get("/", (rec,res)=>{
     res.json({message:"Opa tudo bom?"})
 
 })
